@@ -1,5 +1,11 @@
 [project]
+name = "ex0"
+version = "0.1.0"
+description = "The Sealed Laboratory - Exercise 0 Part 2"
+authors = ["Apprentice Alchemist"]
+package-mode = false
 dependencies = [
     "pandas=2.1.0",
     "numpy=1.25.0",
+    "python=^3.10",
 ]
