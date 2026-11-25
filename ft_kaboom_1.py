@@ -9,7 +9,7 @@ def ft_kaboom_1() -> None:
     )
 
     print(
-        f"Testing record light spell: "
+        f"Testing record dark spell: "
         f"{dark_spell_record('Avada Kedavra', 'Bats and poo')}"
     )
 

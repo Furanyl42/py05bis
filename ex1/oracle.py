@@ -58,9 +58,9 @@ def oracle() -> None:
     print("\nConfiguration security check:")
     print("[OK] No hardcoded secrets detected")
     if env_file_ignored():
-        print("[OK] .env file properly ignored by .git")
+        print("[OK] .env file properly ignored by git")
     else:
-        print("[WARNING] .env file not ignored by .git")
+        print("[WARNING] .env file not ignored by git")
     print("[OK] Production overrides available")
 
     if missing:
